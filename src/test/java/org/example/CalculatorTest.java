@@ -12,4 +12,16 @@ public class CalculatorTest extends TestCase {
         assertEquals(2, calculator.add(1, 1));
     }
 
+    @Test
+    public void testMultiply(){
+
+        Calculator calculator = new Calculator();
+        assertEquals(4, calculator.multiply(2, 2));
+    }
+    @Test
+    public void testDivision(){
+
+        Calculator calculator = new Calculator();
+        assertEquals(1.0, calculator.division(2, 2));
+    }
 }
